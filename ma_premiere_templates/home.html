@@ -1,0 +1,23 @@
+c'est ma premier page home dans une template ici sans  http,
+
+<br />
+<h1>ici avec  http</h1>
+<br />
+{{kle}}
+<br />
+
+
+<form action="{% url 'count' %}">
+   <textarea cols="100" rows="10"  name="notre_variable">ici on a creer une forme
+(avec un url qui renvoi notre_variable vers la page count meme si on change LURL dorigine)
+avec un textarea
+et un bouton(input=submit) et valeur=count
+   </textarea>
+   <br/>
+   <input type="submit" value="count!" />
+
+
+</form>
+
+<br />
+<a href="{% url 'about'%}">about</a>
